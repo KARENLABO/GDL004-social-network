@@ -14,7 +14,7 @@ export const controlador = {
       case '#/SignUp':
         container.appendChild(components.signup());
         controlador.init.signup();
-        break;
+        break
 
       case '#/home':
         container.appendChild(components.home());
