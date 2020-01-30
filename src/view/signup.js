@@ -1,12 +1,13 @@
 export default () => {
   const viewSignup = `
+    <form class="signUpPage"id="form-signup">
         <div class="navLogin">
             <a href="#/Login">Login</a>
         </div>
 
         <h1 class="text-signup">SIGN UP HERE</h1>
 
-        <form id="form-signup">
+        
 
             <div>
                 <input name="userName" type="text" placeholder="Name:"id="nombreUserSignup"/>
@@ -23,7 +24,7 @@ export default () => {
 
 
             <input  placeholder="Email:" name="email" type="email" id="inputEmalSignup"/>
-            <input placeholder="Paassword:" name="password" type="password"id="inputPasswordSignup"/>
+            <input placeholder="Password:" name="password" type="password"id="inputPasswordSignup"/>
             
             <button type="submit" id="buttonSignup">Sign Up</a></button>
 

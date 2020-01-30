@@ -4,19 +4,21 @@ export default () => {
 
 
     <div class="logoNeek">
-        <img src="images/Logo Neek.png" alt="Logo neek" width="180">
+        <img src="images/Logo Neek.png" alt="Logo neek" width="200">
     </div>
     
         <input 
             name="email"
             type="email" 
             id="email"
+            class="inputEmailLogin"
             placeholder="Email:">
         </input>
         <input 
             name="password"
             type="password" 
             id="password" 
+            class="inputPasswordLogin"
         placeholder="Password:">
         </input>
    
@@ -37,10 +39,10 @@ export default () => {
   //  inyecta con atributos
   textsignup.innerHTML = 'Or sign up with';
   imgFacebook.setAttribute('src', './images/logoFacebook.png');
-  imgFacebook.setAttribute('width', '70');
+  imgFacebook.setAttribute('width', '90');
   imgFacebook.setAttribute('id', 'imgLogoFB');
   imgGoogle.setAttribute('src', './images/logoGoogle.png');
-  imgGoogle.setAttribute('width', '55');
+  imgGoogle.setAttribute('width', '67');
   imgGoogle.setAttribute('id', 'imgLogoGoogle');
 
   divImgFB.appendChild(imgFacebook);
