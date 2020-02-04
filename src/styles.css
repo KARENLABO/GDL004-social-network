@@ -31,6 +31,11 @@ button {
    
 }
 
+#buttonSignOut{
+  font-size: 12px;
+  width: auto;
+}
+
 a {
   background-color: #56baed;
     display:inline-block;

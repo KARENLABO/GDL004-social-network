@@ -1,6 +1,7 @@
 
 import { modelo } from '../model/model.js';
 import { components, vista } from '../view/views.js';
+
 export const controlador = {
   changeTmp: (hash) => {
     const container = document.getElementById('container');

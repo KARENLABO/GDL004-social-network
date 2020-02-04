@@ -15,7 +15,7 @@ export default () => {
             </div>
 
             <div class='textSocialNHomePage'>
-                <h4>The social network for entrepreneurs</h4>
+                <h4>Your desing will be here</h4>
             </div>
         </div>
     `;
